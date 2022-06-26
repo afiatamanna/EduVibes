@@ -154,15 +154,12 @@
 }
 
 .testimonial-card{
-  width: 20rem;
+ 
   font-size: 14px;
   margin-left: 5px;
   
 }
-.card-coach-customise{
-  width: 23rem;
-  
-}
+
 .social-btn{
   left: -10px; 
 }
@@ -208,17 +205,33 @@
 
 
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1068px) {
+   
+    .main-btn {
+      display: none;
+    }
+    .navbar-toggler {
+      background-color: white;
+    }
+    .menu-navbar-nav {
+      align-items: flex-start;
+      background-color: aliceblue;
+      padding: 10px 5px;
+    }
     .category-row{
       margin: 20px 0px;
      
       }
 
+      
+      .card-coach-customise{
+        align-items: center;
+        
+      }
       .testimonial-card{
-        width: 25rem;
-        font-size: 14px;
+       
+        font-size: 20px;
         margin-left: 5px;
         
       }
-      
   }

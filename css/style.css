@@ -536,7 +536,7 @@ padding-bottom: 50px;
 }
 
 .card-coach-customise{
-  width: 25rem;
+  
   background-color: white;
   border: none;
  padding-top: 50px;
@@ -688,7 +688,7 @@ padding: 50px 10px;
 
 }
 .testimonial-card{
-  width: 40rem;
+   width: 40rem; 
   margin-top: 50px;
   margin-left: -90px;
   border: none;
@@ -728,7 +728,7 @@ padding: 50px 10px;
 }
 
 .blog-card-left-customise{
-   width: 32rem; 
+   /* width: 32rem;  */
   background-color: transparent;
   /* border-radius: 15px; */
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
@@ -738,7 +738,7 @@ padding: 50px 10px;
 }
 
 .blog-card-left-customise img{
-  width: 35rem;
+  /* width: 35rem; */
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition:  transform 1s ;
@@ -750,7 +750,7 @@ padding: 50px 10px;
 
 .blog-card-left-text {
   color: var(--light-text);
-  width: 35rem;
+  /* width: 35rem; */
   border-radius: 10px;
   
   background-image: linear-gradient(to bottom,  rgba(4, 0, 255, 0.007),rgba(4, 11, 67, 0.67));
